@@ -761,7 +761,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 }
 .partners__grid {
 	font-size:0;
-	margin:0 0 20px;
+	margin:0 50px 20px;
 }
 .partners__item {
 	display:inline-block;
@@ -980,7 +980,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	z-index:2;
 	width:1100px;
 	padding:20px 30px 132px;
-	margin:0 auto;
+	margin:-10px auto 10px;
 }
 .process h2 {
 	font-size:42px;
