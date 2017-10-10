@@ -1536,3 +1536,46 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 .modal .agreement a:hover {
 	text-decoration:none;
 }
+@media all and (max-width:1356px) {
+	.wrapper {
+		min-width:1180px;
+	}
+	.header--request {
+		margin-left:33px;
+	}
+	.header--email {
+		margin-left:27px;
+	}
+	.intro__row {
+		padding:14px 30px 6px;
+	}
+	.intro__about {
+		width:calc(100% - 575px);
+	}
+	.spec {
+		overflow:hidden;
+		padding:20px 0 30px;
+	}
+	.spec__row {
+		width:calc(100% + 20px);
+		margin-left:-10px;
+	}
+	.offer {
+		width:1100px;
+		min-height:650px;
+		padding:20px 30px 40px;
+		margin:0 auto;
+	}
+	.offer__item {
+		width:calc((100% - 100px) / 3);
+		margin:0 47px 64px 0;
+	}
+	.about__row {
+		overflow:hidden;
+		width:auto;
+	}
+	.about__item {
+		width:190px;
+		height:190px;
+	}
+}
